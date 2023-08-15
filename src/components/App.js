@@ -11,7 +11,7 @@ const App = () => {
     <div>
         {/* Do not remove the main div */}
         <div className="parent"> 
-            <h2>Parent Component</h2>
+            <h1>Parent Component</h1>
             <div>
               <h3>Child Component 1</h3>
               <button onClick={handleClick}>Option 1</button>
@@ -20,7 +20,10 @@ const App = () => {
               <h3>Child Component 2</h3>
               <button onClick={handleClick}>Option 2</button>
             </div>
+            <p>
+
             Selected Option: {option}
+            </p>
         </div>
     </div>
   )
